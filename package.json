@@ -1,0 +1,40 @@
+{
+  "name": "twitch-overlay-text",
+  "version": "0.0.1",
+  "description": "Text to Speech overlay for Twitch Streams (also used to display text)",
+  "keywords": [
+    "twitch",
+    "overlay",
+    "tts",
+    "text to speech"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/gulp test"
+  },
+  "engines": {
+    "node": ">=4.4.0"
+  },
+  "author": "bdickason",
+  "contributors": [
+    {
+      "name": "bdickason",
+      "email": "dickason@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bdickason/twitch-overlay-text.git"
+  },
+  "dependencies": {
+  },
+  "license":"GPL-3.0",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon": "*",
+    "gulp": "*",
+    "gulp-mocha": "*"
+  }
+}

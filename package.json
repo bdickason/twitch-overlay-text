@@ -1,6 +1,6 @@
 {
   "name": "twitch-overlay-text",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Text to Speech overlay for Twitch Streams (also used to display text)",
   "keywords": [
     "twitch",
